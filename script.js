@@ -228,7 +228,7 @@ function initFilters() {
    SCROLL INTERSECTION OBSERVER ANIMATIONS
    ========================================================================== */
 function initScrollAnimations() {
-    const animateEls = document.querySelectorAll('.glass-card, .timeline-card, .section-header, .hero-profile-frame');
+    const animateEls = document.querySelectorAll('.glass-card, .timeline-card, .section-header');
 
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
